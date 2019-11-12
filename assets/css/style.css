@@ -40,4 +40,13 @@ html,body {
     height:calc(90% - 50px);
     height: 90vh;
   }
-  
+
+
+  /* .background-image {
+      height: 100vh;
+      min-height: 400px;
+      background-size: cover;
+      background-image: url("assets/images/everest.jpg");
+      /* background-color: #cccccc; */
+      /* background-position: top center;
+  } */
