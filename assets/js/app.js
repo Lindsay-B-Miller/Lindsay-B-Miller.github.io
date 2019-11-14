@@ -7,3 +7,4 @@ $(window).on("scroll", function (event) {
         $(".navbar").removeClass("affix");
     }
 });
+

@@ -41,7 +41,49 @@ html,body {
     height: 90vh;
   }
 
-  .firstPageText {
-      margin-top: 500px;
+  .pageText {
+    padding-top: 200px;
+    font-family: 'Abel', sans-serif;
+    /* font-family: 'Aladin', cursive;
+    font-family: 'Alice', serif;
+    font-family: 'Alike Angular', serif;
+    font-family: 'Allura', cursive;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-family: 'Assistant', sans-serif;
+    font-family: 'Averia Sans Libre', cursive;
+    font-family: 'Averia Serif Libre', cursive;
+    font-family: 'Bad Script', cursive;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'BenchNine', sans-serif;
+    font-family: 'Beth Ellen', cursive;
+    font-family: 'Calligraffitti', cursive;
+    font-family: 'Chelsea Market', cursive;
+    font-family: 'Coming Soon', cursive;
+    font-family: 'Crushed', cursive;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Fresca', sans-serif;
+    font-family: 'Give You Glory', cursive;
+    font-family: 'Handlee', cursive;
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-family: 'Loved by the King', cursive;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-family: 'Merienda', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mountains of Christmas', cursive;
+    font-family: 'News Cycle', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Over the Rainbow', cursive;
+    font-family: 'Overlock', cursive;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Pompiere', cursive;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Shadows Into Light Two', cursive;
+    font-family: 'Short Stack', cursive;
+    font-family: 'Vibes', cursive;
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-family: 'Zeyada', cursive; */
+
   }
 
