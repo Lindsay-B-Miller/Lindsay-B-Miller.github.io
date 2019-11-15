@@ -41,49 +41,34 @@ html,body {
     height: 90vh;
   }
 
-  .pageText {
+  .pageTextName {
     padding-top: 200px;
-    font-family: 'Abel', sans-serif;
-    /* font-family: 'Aladin', cursive;
-    font-family: 'Alice', serif;
-    font-family: 'Alike Angular', serif;
-    font-family: 'Allura', cursive;
-    font-family: 'Amatic SC', cursive;
-    font-family: 'Annie Use Your Telescope', cursive;
-    font-family: 'Assistant', sans-serif;
-    font-family: 'Averia Sans Libre', cursive;
-    font-family: 'Averia Serif Libre', cursive;
-    font-family: 'Bad Script', cursive;
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    font-family: 'BenchNine', sans-serif;
-    font-family: 'Beth Ellen', cursive;
-    font-family: 'Calligraffitti', cursive;
-    font-family: 'Chelsea Market', cursive;
-    font-family: 'Coming Soon', cursive;
-    font-family: 'Crushed', cursive;
-    font-family: 'Darker Grotesque', sans-serif;
-    font-family: 'Fredericka the Great', cursive;
-    font-family: 'Fresca', sans-serif;
-    font-family: 'Give You Glory', cursive;
-    font-family: 'Handlee', cursive;
-    font-family: 'Liu Jian Mao Cao', cursive;
-    font-family: 'Loved by the King', cursive;
-    font-family: 'M PLUS 1p', sans-serif;
-    font-family: 'Merienda', cursive;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Mountains of Christmas', cursive;
-    font-family: 'News Cycle', sans-serif;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-family: 'Over the Rainbow', cursive;
-    font-family: 'Overlock', cursive;
-    font-family: 'Poiret One', cursive;
-    font-family: 'Pompiere', cursive;
-    font-family: 'Satisfy', cursive;
-    font-family: 'Shadows Into Light Two', cursive;
-    font-family: 'Short Stack', cursive;
-    font-family: 'Vibes', cursive;
-    font-family: 'Waiting for the Sunrise', cursive;
-    font-family: 'Zeyada', cursive; */
+    font-size: 70px;
+ 
+    /* font-family: 'Abel', sans-serif; /* Maybe for beleow */
+    /* font-family: 'Barlow Semi Condensed', sans-serif; /* Maybe below */
+    /* font-family: 'Assistant', sans-serif; /* Pretty boring... could be used for below */
+    /* font-family: 'Averia Serif Libre', cursive; /* Maybe below */
+    /* font-family: 'BenchNine', sans-serif; /* Below */
+    /* font-family: 'Handlee', cursive; /* Below */
+    /* font-family: 'M PLUS 1p', sans-serif; /* Below */
+    /* font-family: 'Montserrat', sans-serif; /* Below */
+    /* font-family: 'News Cycle', sans-serif; /* Below */
+    /* font-family: 'Overlock', cursive; /*Below */
+    /* font-family: 'Pompiere', cursive; /*Below */
+    
+    /* font-family: 'Darker Grotesque', sans-serif; /* Like */
+    /* font-family: 'Coming Soon', cursive; /* Like */
+    /* font-family: 'Fredericka the Great', cursive; /*Really Like */
+    /* font-family: 'Give You Glory', cursive; /* Like */
+    /* font-family: 'Liu Jian Mao Cao', cursive; /*Like */
+    /* font-family: 'Open Sans Condensed', sans-serif; /* Like and for below */
+     /* font-family: 'Over the Rainbow', cursive;  */
+    /* font-family: 'Poiret One', cursive; /*Like and below */
+    /* font-family: 'Shadows Into Light Two', cursive; /*Really Like */
+    /* font-family: 'Waiting for the Sunrise', cursive;  */
+
+
 
   }
 
