@@ -49,33 +49,31 @@ html,body {
     text-shadow: 1px 1px black;
     padding-top: 200px;
     font-size: 400%;
- 
-    /* font-family: 'Abel', sans-serif; /* Maybe for beleow */
-    /* font-family: 'Barlow Semi Condensed', sans-serif; /* Maybe below */
-    /* font-family: 'Assistant', sans-serif; /* Pretty boring... could be used for below */
-    /* font-family: 'Averia Serif Libre', cursive; /* Maybe below */
-    /* font-family: 'BenchNine', sans-serif; /* Below */
-    /* font-family: 'Handlee', cursive; /* Below */
-    /* font-family: 'M PLUS 1p', sans-serif; /* Below */
-    /* font-family: 'Montserrat', sans-serif; /* Below */
-    /* font-family: 'News Cycle', sans-serif; /* Below */
-    /* font-family: 'Overlock', cursive; /*Below */
-    /* font-family: 'Pompiere', cursive; /*Below */
-    /* font-family: 'Darker Grotesque', sans-serif; /*  for below */
+    font-weight: bold;
     
-    /* font-family: 'Coming Soon', cursive; /* Like */
     /* font-family: 'Fredericka the Great', cursive; /*Really Like */
-    /* font-family: 'Give You Glory', cursive; /* Like */
-    /* font-family: 'Liu Jian Mao Cao', cursive; /*Like */
-    /* font-family: 'Open Sans Condensed', sans-serif; /* Like and for below */
-     /* font-family: 'Over the Rainbow', cursive;  */
-    /* font-family: 'Poiret One', cursive; /*Like and below */
+    font-family: 'Give You Glory', cursive; /* top
     /* font-family: 'Shadows Into Light Two', cursive; /*Really Like */
-    font-family: 'Waiting for the Sunrise', cursive; 
+    /* font-family: 'Waiting for the Sunrise', cursive;  */
   }
 
   .headerInfo {
     text-shadow: 1px 1px black;
+    font-size: 120%;
+    padding: 0px;
+    
+    font-family: 'Abel', sans-serif; /* like
+    /* font-family: 'Assistant', sans-serif; /* like */
+    /* font-family: 'News Cycle', sans-serif; /* Below */
+    /* font-family: 'Overlock', cursive; /*Below */
+    /* font-family: 'Darker Grotesque', sans-serif; /*  for below */
+    /* font-family: 'Poiret One', cursive; /*Like and below */
+    /* font-family: 'Open Sans Condensed', sans-serif; /* Like and for below */
+    /* font-family: 'Coming Soon', cursive; /* below */
+  }
+
+  .pageText {
+    width: 60%
   }
 
 
