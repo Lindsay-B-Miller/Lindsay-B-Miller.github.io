@@ -1,6 +1,10 @@
 html,body {
     height:100%;
   }
+
+  body {
+    background-color: #eff0f1
+  }
   
   .first {
     height:100vh;
@@ -35,6 +39,10 @@ html,body {
   nav .navbar-brand {
      color: white;
   }
+
+  .navbar-brand {
+    font-family: 'Shadows Into Light Two', cursive;
+  }
   
   nav .navbar-nav .nav-link:hover {
      color: teal;
@@ -51,10 +59,10 @@ html,body {
     font-size: 400%;
     font-weight: bold;
     
-    /* font-family: 'Fredericka the Great', cursive; /*Really Like */
-    font-family: 'Give You Glory', cursive; /* top
-    /* font-family: 'Shadows Into Light Two', cursive; /*Really Like */
+    /* font-family: 'Give You Glory', cursive; /* top */
+    font-family: 'Shadows Into Light Two', cursive; /*Really Like
     /* font-family: 'Waiting for the Sunrise', cursive;  */
+    color: #eff0f1
   }
 
   .headerInfo {
@@ -70,6 +78,7 @@ html,body {
     /* font-family: 'Poiret One', cursive; /*Like and below */
     /* font-family: 'Open Sans Condensed', sans-serif; /* Like and for below */
     /* font-family: 'Coming Soon', cursive; /* below */
+    color: #eff0f1
   }
 
   .pageText {
@@ -82,22 +91,38 @@ html,body {
   /* =============================================================================================================================== */
   /* =============================================================================================================================== */
   .aFewThings {
-    margin-top: 7%
+    margin-top: 10%;
+    font-family: 'Shadows Into Light Two', cursive;
+  }
+  
+  .projectContainer {
+    background: #fff;
+    border-radius: 2px;
+    /* margin: auto; */
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    height: 200px;
+    padding: 0px;
+    overflow: auto;
+  }
+
+  .projectBtn {
+    padding: 1px;
   }
   
   .imgContainer {
-    background: #fff;
-    border-radius: 2px;
-    height: 200px;
-    margin: auto;
+    height: 100%;
     position: relative;
     width: 200px;
-    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    padding-left: 0px;
+    margin: 0px;
     /* text-align: left; */
     box-align: border-box;
     flex-wrap: wrap;
   }
-  
+
+  .textContainer {
+    overflow: auto;
+  }
   /* .card > .img-container {
     height: 20%;
     overflow: hidden;
@@ -111,6 +136,20 @@ html,body {
     object-fit: cover;
   }
   
-  .imgContainer:hover {
-    transform: scale(1.05);
+  .projectContainer:hover {
+    transform: scale(1.01);
+  }
+
+  
+
+    /* Technologies */
+  /* =============================================================================================================================== */
+  /* =============================================================================================================================== */
+
+  .technologies {
+    margin-top: 10%
+  }
+
+  .technologiesTitle {
+    font-family: 'Shadows Into Light Two', cursive;
   }
