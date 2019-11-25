@@ -1,0 +1,165 @@
+html,body {
+    height:100%;
+  }
+
+  body {
+    background-color: #eff0f1
+  }
+  
+  .first {
+    height:100vh;
+    min-height:400px;
+    background-size:cover;
+    background-image:url('../images/rock4.jpg');
+    background-position: top center;
+  }
+  
+  .affix {
+    background-color: teal;
+    -webkit-transition:padding 0.2s ease-out;
+    -moz-transition:padding 0.2s ease-out;  
+    -o-transition:padding 0.2s ease-out;         
+    transition:padding 0.2s ease-out;
+  }
+  
+  @media (min-width:768px) {
+      .affix-top {
+        /* navbar style at top */
+        background-color:transparent;
+        border-color:transparent;
+        padding: 15px;
+        -webkit-transition:all 0.5s ease;
+        -moz-transition:all 0.5s ease; 
+        -o-transition:all 0.5s ease;         
+        transition:all 0.5s ease;  
+      }
+  }
+  
+  nav .navbar-nav .nav-link,
+  nav .navbar-brand {
+     color: white;
+  }
+
+  .navbar-brand {
+    font-family: 'Shadows Into Light Two', cursive;
+  }
+  
+  nav .navbar-nav .nav-link:hover {
+     color: teal;
+  }
+  
+  section {
+    height:calc(90% - 50px);
+    height: 90vh;
+  }
+
+  .pageTextName {
+    text-shadow: 1px 1px black;
+    padding-top: 200px;
+    font-size: 400%;
+    font-weight: bold;
+    
+    /* font-family: 'Give You Glory', cursive; /* top */
+    font-family: 'Shadows Into Light Two', cursive; /*Really Like
+    /* font-family: 'Waiting for the Sunrise', cursive;  */
+    color: #eff0f1
+  }
+
+  .headerInfo {
+    text-shadow: 1px 1px black;
+    font-size: 120%;
+    padding: 0px;
+    
+    font-family: 'Abel', sans-serif; /* like
+    /* font-family: 'Assistant', sans-serif; /* like */
+    /* font-family: 'News Cycle', sans-serif; /* Below */
+    /* font-family: 'Overlock', cursive; /*Below */
+    /* font-family: 'Darker Grotesque', sans-serif; /*  for below */
+    /* font-family: 'Poiret One', cursive; /*Like and below */
+    /* font-family: 'Open Sans Condensed', sans-serif; /* Like and for below */
+    /* font-family: 'Coming Soon', cursive; /* below */
+    color: #eff0f1
+  }
+
+  .pageText {
+    width: 60%
+  }
+
+
+
+  /* Portfolio Images on Index */
+  /* =============================================================================================================================== */
+  /* =============================================================================================================================== */
+  .aFewThings {
+    margin-top: 10%;
+    font-family: 'Shadows Into Light Two', cursive;
+  }
+  
+  .projectContainer {
+    background: #fff;
+    border-radius: 2px;
+    /* margin: auto; */
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    height: 200px;
+    padding: 0px;
+    overflow: auto;
+  }
+
+  .projectBtn {
+    padding: 1px;
+  }
+  
+  .imgContainer {
+    height: 100%;
+    position: relative;
+    width: 200px;
+    padding-left: 0px;
+    margin: 0px;
+    /* text-align: left; */
+    box-align: border-box;
+    flex-wrap: wrap;
+  }
+
+  .textContainer {
+    overflow: auto;
+  }
+  /* .card > .img-container {
+    height: 20%;
+    overflow: hidden;
+    text-align: center;
+    background:#6CADDC;
+  } */
+  
+  img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+  }
+  
+  .projectContainer:hover {
+    transform: scale(1.01);
+  }
+
+  
+
+    /* Technologies */
+  /* =============================================================================================================================== */
+  /* =============================================================================================================================== */
+
+  .technologies {
+    margin-top: 10%
+  }
+
+  .technologiesTitle {
+    font-family: 'Shadows Into Light Two', cursive;
+  }
+
+    /* Portfolio */
+  /* =============================================================================================================================== */
+  /* =============================================================================================================================== */
+
+  .cardsContainer {
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%
+  }

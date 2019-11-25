@@ -14,13 +14,16 @@ html,body {
     background-position: top center;
   }
   
-  .affix {
+  .navbar {
+      background-color: teal;
+  }
+  /* .affix {
     background-color: teal;
     -webkit-transition:padding 0.2s ease-out;
     -moz-transition:padding 0.2s ease-out;  
     -o-transition:padding 0.2s ease-out;         
     transition:padding 0.2s ease-out;
-  }
+  } */
   
   @media (min-width:768px) {
       .affix-top {
@@ -81,75 +84,8 @@ html,body {
     color: #eff0f1
   }
 
-  .pageText {
-    width: 60%
-  }
-
-
-
-  /* Portfolio Images on Index */
-  /* =============================================================================================================================== */
-  /* =============================================================================================================================== */
-  .aFewThings {
+  .cardsContainer {
     margin-top: 10%;
-    font-family: 'Shadows Into Light Two', cursive;
-  }
-  
-  .projectContainer {
-    background: #fff;
-    border-radius: 2px;
-    /* margin: auto; */
-    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
-    height: 200px;
-    padding: 0px;
-    overflow: auto;
-  }
-
-  .projectBtn {
-    padding: 1px;
-  }
-  
-  .imgContainer {
-    height: 100%;
-    position: relative;
-    width: 200px;
-    padding-left: 0px;
-    margin: 0px;
-    /* text-align: left; */
-    box-align: border-box;
-    flex-wrap: wrap;
-  }
-
-  .textContainer {
-    overflow: auto;
-  }
-  /* .card > .img-container {
-    height: 20%;
-    overflow: hidden;
-    text-align: center;
-    background:#6CADDC;
-  } */
-  
-  img {
-    width:100%;
-    height:100%;
-    object-fit: cover;
-  }
-  
-  .projectContainer:hover {
-    transform: scale(1.01);
-  }
-
-  
-
-    /* Technologies */
-  /* =============================================================================================================================== */
-  /* =============================================================================================================================== */
-
-  .technologies {
-    margin-top: 10%
-  }
-
-  .technologiesTitle {
-    font-family: 'Shadows Into Light Two', cursive;
+    margin-left: 5%;
+    margin-right: 5%
   }
