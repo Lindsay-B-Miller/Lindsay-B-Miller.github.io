@@ -70,14 +70,8 @@ html,body {
     font-size: 120%;
     padding: 0px;
     
-    font-family: 'Abel', sans-serif; /* like
-    /* font-family: 'Assistant', sans-serif; /* like */
-    /* font-family: 'News Cycle', sans-serif; /* Below */
-    /* font-family: 'Overlock', cursive; /*Below */
-    /* font-family: 'Darker Grotesque', sans-serif; /*  for below */
-    /* font-family: 'Poiret One', cursive; /*Like and below */
-    /* font-family: 'Open Sans Condensed', sans-serif; /* Like and for below */
-    /* font-family: 'Coming Soon', cursive; /* below */
+    font-family: 'Assistant', sans-serif; 
+    /* font-family: 'News Cycle', sans-serif;  */
     color: #eff0f1
   }
 
