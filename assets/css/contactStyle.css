@@ -58,28 +58,28 @@ html,body {
     height: 90vh;
   }
 
-  .pageTextName {
-    text-shadow: 1px 1px black;
-    padding-top: 200px;
-    font-size: 400%;
-    font-weight: bold;
-    
+  .profileImage {
+    width: 100%;
+    object-fit: cover;
+    margin-top: 60px;
+  }
+
+  img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.contactTitle {
+    margin-top: 25%;
+    font-size: 300%;
     font-family: 'Shadows Into Light Two', cursive;
-    color: #eff0f1
-  }
+}
 
-  .headerInfo {
-    text-shadow: 1px 1px black;
-    font-size: 120%;
-    padding: 0px;
-    
+.container {
     font-family: 'Assistant', sans-serif;
-    color: #eff0f1
-  }
+}
 
-  .cardsContainer {
-    margin-top: 10%;
-    margin-left: 5%;
-    margin-right: 5%;
-    font-family: 'Assistant', sans-serif; 
-  }
+.currentLocation {
+    font-family: 'Assistant', sans-serif;
+    margin-top: 10rem;
+}
