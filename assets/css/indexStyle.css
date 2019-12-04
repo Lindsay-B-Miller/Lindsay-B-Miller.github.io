@@ -2,6 +2,10 @@ html,body {
     height:100%;
   }
 
+  * {
+    border: 1px dotted black
+  }
+
   body {
     background-color: #eff0f1
   }
@@ -49,7 +53,11 @@ html,body {
   nav .navbar-nav .nav-link:hover {
     font-weight: bold;  
     text-shadow: 1px 1px gray;
+  }
 
+  .navbar-brand:hover {
+    font-family: 'Shadows Into Light Two', cursive;
+    color: white;
   }
   
   section {
