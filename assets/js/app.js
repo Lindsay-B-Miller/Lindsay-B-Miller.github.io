@@ -5,9 +5,20 @@ $(window).on("scroll", function (event) {
         $(".navbar").addClass("animated fadeIn")
         $(".portfolioImages").addClass("animated fadeInDown")
         $(".portfolioImages").show()
-    } else {
+        // $(".technologiesList").addClass("animated fadeInDown")
+    }
+    if (ScrollValue > 330) {
+        $(".technologiesList").addClass("animated fadeInDown")
+        // $(".technologiesList").show()
+    }
+    else if (ScrollValue < 320) {
         $(".navbar").removeClass("affix");
         $(".portfolioImages").hide()
+
     }
+    // else if (ScrollValue < 720) {
+    //     $(".technologiesList").hide()
+    // }
+
 });
 

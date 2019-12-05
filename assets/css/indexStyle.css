@@ -2,9 +2,9 @@ html,body {
     height:100%;
   }
 
-  * {
+  /* * {
     border: 1px dotted black
-  }
+  } */
 
   body {
     background-color: #eff0f1
@@ -111,7 +111,6 @@ html,body {
   .projectBtn {
     padding: 1px;
     font-family: 'Assistant', sans-serif; 
-
   }
   
   .imgContainer {
@@ -140,7 +139,7 @@ html,body {
   
   .portfolioTitle {
     font-family: 'Assistant', sans-serif; 
-    font-size: 120%;
+    font-size: 150%;
     font-weight: bold;
   }
 
@@ -176,6 +175,32 @@ html,body {
     font-family: 'Shadows Into Light Two', cursive;
   }
 
+  .technologiesList {
+    font-family: 'Assistant', sans-serif;
+    margin-top: 10% 
+  }
+
+  .technology {
+    font-size: 140%;
+    background-color: teal;
+    color: white;
+  }
+
+  /* .html {
+    background-color: yellow;
+  }
+
+  .css {
+    background-color: blue;
+  }
+
+  .js {
+    background-color: purple;
+  }
+
+  .express {
+    background-color: teal;
+  } */
     /* Portfolio */
   /* =============================================================================================================================== */
   /* =============================================================================================================================== */
